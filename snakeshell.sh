@@ -128,7 +128,7 @@ move() {
    LASTPOSX=( `echo "${LASTPOSX[@]}" | cut -d " " -f 2-` $POSX )
    LASTPOSY=( `echo "${LASTPOSY[@]}" | cut -d " " -f 2-` $POSY )
    tput cup 1 10
-   #echo "LASTPOSX array ${LASTPOSX[@]} LASTPOSY array ${LASTPOSY[@]}"
+   #echo test per posizione XY "LASTPOSX array ${LASTPOSX[@]} LASTPOSY array ${LASTPOSY[@]}"
    tput cup 2 10
    echo "LUNG=${#LASTPOSX[@]}"
 
